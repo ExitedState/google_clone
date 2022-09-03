@@ -1,5 +1,12 @@
 /* --------- Defaults ---------*/
-
+html{
+    height: 100%;
+    background-image: url("https://i.pinimg.com/originals/0a/5b/98/0a5b98bd5607a1f04cea707ee641657d.gif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+ 
+}
 body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
     margin: 0;
     padding: 0;
@@ -25,7 +32,8 @@ header {
     height: 10vh;
 }
 header a {
-    color: rgb(51, 51, 51);
+    color: white;
+    
 }
 header  ul {
     display: flex;
@@ -34,6 +42,8 @@ header  ul {
     justify-content: flex-end;
     align-items: center;
     padding: 0 15px;
+    font-weight: bold;
+
 }
 
 /* --------- Main ------- */
