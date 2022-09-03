@@ -1,5 +1,11 @@
 /* --------- Defaults ---------*/
-
+html{
+    min-height: 100%;
+    background-image: url("https://i.pinimg.com/originals/81/5b/38/815b3816e07f2cb6b8ca8e6a469f3d3c.gif");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
     margin: 0;
     padding: 0;
@@ -26,7 +32,8 @@ header {
     height: 10vh;
 }
 header a {
-    color: #333;
+    color: white;
+    font-weight: bold;
     
 }
 header  ul {
