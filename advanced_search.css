@@ -55,6 +55,7 @@ header #logo {
 header #back_to_main {
     grid-column: 2 / 3;
     text-align: end;
+    padding-right: 20px;
 }
 
 /* --------- Main ------- */
