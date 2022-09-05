@@ -4,6 +4,7 @@ body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
     margin: 0;
     padding: 0;
     font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #fffae4;
 }
 li {
     list-style-type: none;
@@ -19,6 +20,9 @@ a:hover {
 }
 
 /* --------- Header --------- */
+.head_tab{
+    background-color: #b5c2dd;
+}
 
 header {
     display: flex;
@@ -51,7 +55,7 @@ section {
 .image_container img{
     width: 100%;
     max-width: 430px;
-    padding-top: 40px; 
+    padding-top: 90px; 
 }
 /* ------  Search Bar ----------*/
 .search_bar {
