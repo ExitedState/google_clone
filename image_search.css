@@ -95,7 +95,7 @@ input[type="text"]
     justify-content: center;
 }
 .search_buttons input {
-    color: #5F6368;
+    color: rgb(255, 255, 255);
     border: 1px solid #f2f2f2;
     margin: 11px 4px;
     padding: 0 16px;   
@@ -105,6 +105,13 @@ input[type="text"]
     border-radius: 5px;
 }
 
+
+#search{
+    background-color:#CFBCD4
+}
+#lucky{
+    background-color:#EBB9AC
+}
 .search_buttons > input:hover {
     color: #222;
     border: 1px solid #ccc;
